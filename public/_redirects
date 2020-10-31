@@ -1,0 +1,4 @@
+# redirect every path to index.html
+# for netlify
+
+/*  /index.html
