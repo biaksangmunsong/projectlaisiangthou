@@ -45,6 +45,15 @@ const App = () => {
             <Route path="/:book">
               <Book bookRef={ bookRef } />
             </Route>
+            <Route exact path="/">
+              <Home
+                language={ language }
+                version={ version }
+                testament={ testament }
+                setTestament={ setTestament }
+                bookRef={ bookRef }
+              />
+            </Route>
           </Switch>
         }
       </div>
