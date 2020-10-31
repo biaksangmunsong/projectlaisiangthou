@@ -1,4 +1,4 @@
-# redirect every path to index.html
+# redirect every path to homepage
 # for netlify
 
-/*  /index.html
+/*    /index.html   200
